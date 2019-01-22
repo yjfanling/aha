@@ -31,6 +31,5 @@ public class meiju {
 		total=total/2;
 		System.out.println(total);
 	}
-
 } 
 
