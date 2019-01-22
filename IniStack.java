@@ -49,4 +49,5 @@ public class IniStack<E> {
 		// TODO Auto-generated method stub
 		return size==0;
 	}
+	
 }
