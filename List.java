@@ -9,4 +9,5 @@ public class List {
 	public List(int val){
 		this.val=val;
 	}
+	
 }
