@@ -16,5 +16,6 @@ public class huiwen {
 			System.out.println("yes");
 		else
 			System.out.println("no");
+		
 	}
 }
