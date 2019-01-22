@@ -32,13 +32,6 @@ public class Quicklysort {
 		quicklysortcore(a, end+1, endindex);
 		return;
 	}
-	@Test
-	public void test(){
-		int[] A={6,1,2,7,9,3,4,5,10,8};
-		quicklysort(A);
-		for(int i=0;i<A.length;i++)
-			System.out.print(A[i]+" ");
-	}
 
 	private void swap(int[] a, int start, int end) {
 		// TODO Auto-generated method stub
