@@ -1,5 +1,5 @@
 package aha;
-
+//×Ô¶¨ÒåÕ»
 public class IniStack<E> {
 	Queue<E> q1;
 	Queue<E> q2;
