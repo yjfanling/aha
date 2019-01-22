@@ -41,5 +41,6 @@ public class moniList {
 			System.out.print(date[next[j]]+" ");
 			j=next[j];
 		}
+		
 	}
 }
