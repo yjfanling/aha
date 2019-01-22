@@ -73,5 +73,6 @@ public class Queue<E> {
 			queue.add(queue.poll());
 			System.out.print(queue.poll()+"");
 		}
+		
 	}
 }
