@@ -15,9 +15,4 @@ public class Tongsort {
 				System.out.print(i+" ");
 		}
 	}
-	@Test
-	public void test(){
-		int[] A={5,3,5,2,8};
-		tongsort(A, 10);
-	}
 }
