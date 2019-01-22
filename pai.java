@@ -88,5 +88,6 @@ public class pai {
 				}else
 					System.out.println("×ÀÉÏÃ»ÅÆÁË");
 		}
+		
 	}
 }
