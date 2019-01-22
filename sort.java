@@ -14,10 +14,6 @@ public class sort {
 		}
 		return A;
 	}
-	public int[] insertsort(int[] A){
-		
-		return A;
-	}
 	private void swap(int[] a, int i, int j) {
 		// TODO Auto-generated method stub
 		int tmp=a[i];
