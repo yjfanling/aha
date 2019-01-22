@@ -30,4 +30,5 @@ public class Testmaopao {
 		for(int i=0;i<test.length;i++)
 			System.out.print(test[i].Name+" ");
 	}
+	
 }
