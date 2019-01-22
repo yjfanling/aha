@@ -28,4 +28,5 @@ public class MaoPaosort {
 		for(int i=0;i<A.length;i++)
 			System.out.print(A[i]+" ");
 	}
+	
 }
