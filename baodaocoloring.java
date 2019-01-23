@@ -43,9 +43,9 @@ public class baodaocoloring {
 			for(int j=0;j<n;j++)
 			{
 				if(map[i][j]==-1)
-					System.out.print(map[i][j]+"   ");
+					System.out.print("   "+map[i][j]);
 				else
-					System.out.print(map[i][j]+"    ");
+					System.out.print("    "+map[i][j]);
 			
 			}
 			System.out.println();
