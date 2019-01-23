@@ -8,4 +8,8 @@ public class BFSNode {
 		this.y=y;
 		this.s=s;
 	}
+	public BFSNode(int x,int y){
+		this.x=x;
+		this.y=y;
+	}
 }
