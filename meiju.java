@@ -26,10 +26,12 @@ public class meiju {
 											for(int i=1;i<=9;i++)
 												sum+=book[i];
 											if(sum==9&&a[1]*100+a[2]*10+a[3]+a[4]*100+a[5]*10+a[6]==a[7]*100+a[8]*10+a[9])
+											{
 												total++;
+												System.out.println((a[1]*100+a[2]*10+a[3])+"+"+(a[4]*100+a[5]*10+a[6])+"="+(a[7]*100+a[8]*10+a[9]));
+											}
 										}
 		total=total/2;
 		System.out.println(total);
 	}
 } 
-
