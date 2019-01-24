@@ -73,6 +73,5 @@ public class IniQueue<E> {
 			queue.add(queue.poll());
 			System.out.print(queue.poll()+"");
 		}
-		
 	}
 }
