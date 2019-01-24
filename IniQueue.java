@@ -2,21 +2,21 @@ package aha;
 
 import org.junit.Test;
 
-public class Queue<E> {
+public class IniQueue<E> {
 	private Object[] array;
 	private int size=0;
 	private int inicount=0;
 	private int increase=0;
-	public Queue(int inicount){
+	public IniQueue(int inicount){
 		this.inicount=inicount;
 		array=new Object[inicount];
 	}
-	public Queue(){
+	public IniQueue(){
 		inicount=100;
 		increase=10;
 		array=new Object[inicount];
 	}
-	public Queue(int inicount,int increase){
+	public IniQueue(int inicount,int increase){
 		this.inicount=inicount;
 		this.increase=increase;
 		array=new Object[inicount];
@@ -61,7 +61,7 @@ public class Queue<E> {
 	}
 	@Test
 	public void test(){
-		Queue<Integer> queue=new Queue<Integer>();
+		IniQueue<Integer> queue=new IniQueue<Integer>();
 		int[] q={6,3,1,7,5,8,9,2,4};
 		for(int i=0;i<q.length;i++)
 		{
