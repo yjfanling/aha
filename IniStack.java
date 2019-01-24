@@ -1,15 +1,15 @@
 package aha;
 public class IniStack<E> {
-	Queue<E> q1;
-	Queue<E> q2;
+	IniQueue<E> q1;
+	IniQueue<E> q2;
 	int size=0;
 	public IniStack(int inicount,int increase) {
-		q1=new Queue<E>(inicount,increase);
-		q2=new Queue<E>(inicount,increase);
+		q1=new IniQueue<E>(inicount,increase);
+		q2=new IniQueue<E>(inicount,increase);
 	}
 	public IniStack(){
-		q1=new Queue<E>(100,10);
-		q2=new Queue<E>(100,10);
+		q1=new IniQueue<E>(100,10);
+		q2=new IniQueue<E>(100,10);
 	}
 	public void add(E e){
 		q1.add(e);
