@@ -2,8 +2,8 @@ package aha;
 
 public class pai {
 	public static void main(String[] args){
-		Queue<Integer> q1=new Queue<Integer>();
-		Queue<Integer> q2=new Queue<Integer>();
+		IniQueue<Integer> q1=new IniQueue<Integer>();
+		IniQueue<Integer> q2=new IniQueue<Integer>();
 		IniStack<Integer> stack=new IniStack<Integer>();
 		int[] book=new int[10];
 		int[] qq1={2,4,1,2,5,6};
